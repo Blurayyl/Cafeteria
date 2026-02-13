@@ -45,3 +45,69 @@ footer {
     background-color: #4e342e;
     color: white;
 }
+
+
+/* MENU FIXO */
+.navbar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: #4e342e;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 30px;
+    z-index: 1000;
+}
+
+.logo {
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.menu {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    margin: 0;
+}
+
+.menu li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.btn-pedido {
+    background-color: #ffcc80;
+    color: #4e342e;
+    padding: 8px 14px;
+    border-radius: 8px;
+}
+
+/* HERO */
+.hero {
+    padding-top: 120px;
+    text-align: center;
+    background-color: #6d4c41;
+    color: white;
+    padding-bottom: 60px;
+}
+
+/* BOTÃO WHATSAPP */
+.botao-whatsapp {
+    display: inline-block;
+    background-color: #25D366;
+    color: white;
+    padding: 15px 25px;
+    border-radius: 10px;
+    text-decoration: none;
+    font-size: 18px;
+    margin-top: 15px;
+}
+
+.pedido {
+    text-align: center;
+    padding: 50px 20px;
+}
